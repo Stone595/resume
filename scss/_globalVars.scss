@@ -1,0 +1,34 @@
+
+
+$primary: #ffffff;
+$secondary: #EFEFEF;
+$font-color: #1d1e2c;
+$font-size-lg: 3rem;
+$font-size-md: 2rem;
+$font-size-sm: 1rem;
+
+$font-Fam: 'Raleway', sans-serif;
+$margy: .5rem;
+$pad: .5rem;
+
+%borderRad{
+  border: 1px solid $font-color;
+  border-radius: 50%;
+  
+}
+
+@mixin flexMan($d:row, $j:space-between, $a:center){
+  display: flex;
+  flex-direction: $d;
+  justify-content: $j;
+  align-items: $a;
+}
+
+
+
+
+
+
+
+
+
